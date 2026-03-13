@@ -96,7 +96,7 @@ namespace CodeImp.DoomBuilder.Windows
 			label11.Name = "label11";
 			label11.Size = new System.Drawing.Size(69, 13);
 			label11.TabIndex = 13;
-			label11.Text = "Sector index:";
+			label11.Text = "Sector ID:";
 			label11.TextAlign = System.Drawing.ContentAlignment.TopRight;
 			// 
 			// label5
@@ -136,7 +136,7 @@ namespace CodeImp.DoomBuilder.Windows
 			label12.Name = "label12";
 			label12.Size = new System.Drawing.Size(69, 13);
 			label12.TabIndex = 16;
-			label12.Text = "Sector index:";
+			label12.Text = "Sector ID:";
 			label12.TextAlign = System.Drawing.ContentAlignment.TopRight;
 			// 
 			// label8
@@ -290,7 +290,7 @@ namespace CodeImp.DoomBuilder.Windows
 			this.labelFrontTextureOffset.Name = "labelFrontTextureOffset";
 			this.labelFrontTextureOffset.Size = new System.Drawing.Size(75, 13);
 			this.labelFrontTextureOffset.TabIndex = 42;
-			this.labelFrontTextureOffset.Text = "Texture offset:";
+			this.labelFrontTextureOffset.Text = "Offset:";
 			this.labelFrontTextureOffset.TextAlign = System.Drawing.ContentAlignment.TopRight;
 			// 
 			// frontsector
@@ -386,7 +386,7 @@ namespace CodeImp.DoomBuilder.Windows
 			this.labelBackTextureOffset.Name = "labelBackTextureOffset";
 			this.labelBackTextureOffset.Size = new System.Drawing.Size(75, 13);
 			this.labelBackTextureOffset.TabIndex = 43;
-			this.labelBackTextureOffset.Text = "Texture offset:";
+			this.labelBackTextureOffset.Text = "Offset:";
 			this.labelBackTextureOffset.TextAlign = System.Drawing.ContentAlignment.TopRight;
 			// 
 			// backsector
@@ -633,4 +633,5 @@ namespace CodeImp.DoomBuilder.Windows
 		private System.Windows.Forms.Label labelBackTextureOffset;
 		private CodeImp.DoomBuilder.Controls.ArgumentsControl argscontrol;
 	}
+
 }
