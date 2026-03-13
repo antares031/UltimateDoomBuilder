@@ -150,7 +150,7 @@ namespace CodeImp.DoomBuilder.Windows
 			label9.Name = "label9";
 			label9.Size = new System.Drawing.Size(59, 13);
 			label9.TabIndex = 2;
-			label9.Text = "Brightness:";
+			label9.Text = "Light:";
 			label9.TextAlign = System.Drawing.ContentAlignment.TopRight;
 			// 
 			// groupfloorceiling
@@ -198,7 +198,7 @@ namespace CodeImp.DoomBuilder.Windows
 			label5.Name = "label5";
 			label5.Size = new System.Drawing.Size(65, 13);
 			label5.TabIndex = 17;
-			label5.Text = "Floor height:";
+			label5.Text = "Floor:";
 			label5.TextAlign = System.Drawing.ContentAlignment.TopRight;
 			// 
 			// label6
@@ -208,7 +208,7 @@ namespace CodeImp.DoomBuilder.Windows
 			label6.Name = "label6";
 			label6.Size = new System.Drawing.Size(73, 13);
 			label6.TabIndex = 19;
-			label6.Text = "Ceiling height:";
+			label6.Text = "Ceiling:";
 			label6.TextAlign = System.Drawing.ContentAlignment.TopRight;
 			// 
 			// heightoffset
@@ -285,7 +285,7 @@ namespace CodeImp.DoomBuilder.Windows
 			this.sectorheightlabel.Name = "sectorheightlabel";
 			this.sectorheightlabel.Size = new System.Drawing.Size(73, 13);
 			this.sectorheightlabel.TabIndex = 20;
-			this.sectorheightlabel.Text = "Sector height:";
+			this.sectorheightlabel.Text = "Height:";
 			this.sectorheightlabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
 			// 
 			// label4
